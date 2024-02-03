@@ -1,0 +1,49 @@
+header {
+    padding: 0 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .left {
+    width: 700px;
+}
+
+header .left h1 {
+    font-size: 80px;
+}
+
+header .left h1 span {
+    color: #0f2182;
+}
+
+header .left p {
+    margin: 40px 0;
+    color: #777;
+}
+
+header .left a {
+    display: flex;
+    align-items: center;
+    background: #000;
+    width: 200px;
+    padding: 8px;
+    border-radius: 60px;
+}
+
+header .left a i {
+    background-color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+header .left a span {
+    color: #fff;
+    margin-left: 10px;
+}
+
+header img {
+    width: 600px;
+}
